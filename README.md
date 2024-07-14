@@ -1,38 +1,24 @@
-# create-svelte
+# Simple UI to send Text Messages
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Setup PocketBase First
 
-## Creating a project
+[See this project first.](https://github.com/thedittmer/pbtexts-go)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Install and Run SvelteKit
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Create a .env file in this project with these environment variables.
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+SECRET_EMAIL="admin@gmail.com"
+SECRET_PASSWORD="adminPassword"
+POCKETBASE_URL="http://127.0.0.1:8090"
 ```
 
-## Building
-
-To create a production version of your app:
-
+Install and run this project from your terminal
 ```bash
-npm run build
+pnpm i
+pnpm run dev
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Send Texts
+Now your ready to send a text message.
