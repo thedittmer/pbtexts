@@ -1,11 +1,11 @@
 
 
-<h1>Create!</h1>
+<h1>Send a text message</h1>
 <form method="post" action="?/create">
-    <label for="jobname">Job Name</label>
-    <input type="text" required name="jobname" />
-    <label for="salary">Salary</label>
-    <input type="number" required name="salary" />
+    <label for="to">To Phone Number</label>
+    <input type="text" required name="to" />
+    <label for="message">Text Message</label>
+    <input type="text" required name="message" />
     <button type="submit">Submit</button>
 </form>
 

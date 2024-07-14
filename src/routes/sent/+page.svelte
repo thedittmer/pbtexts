@@ -1,14 +1,12 @@
 <script>
     export let data;
-
 </script>
 
-
-<h1>Read!</h1>
+<h1>Sent Text Messages!</h1>
 <div>
     <ol>
         {#each data?.records as record}
-        <li>{`Job Name: ${record.jobname}   Salary: ${record.salary}`}</li>
+            <li>{`To: ${record.to}   Message: ${record.message}`}</li>
         {/each}
     </ol>
 </div>

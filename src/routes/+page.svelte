@@ -1,18 +1,20 @@
-<h1>Welcome to Consulting Ninja!</h1>
-<h3>Pocketbase CRUD APP basics!</h3>
-<p>Visit <a href="https://www.youtube.com/@ConsultingNinja/featured"><strong>@ConsultingNinja</strong></a> to see more great videos!</p>
+<h1>SvelteKit UI to Send Text Messages</h1>
+<h3>SvelteKit - PocketBase - Twilio</h3>
+<p>This is a simple UI for sending text messages using Twilio.</p>
 
-<p>Each page represents the corresponding data operation with a +page.server file that performs the action in PocketBase!</p>
-
+<p>
+    Also, required is PocketBase extended with Go and Twilio. Text messages are
+    sent from your Twilio phone number.
+</p>
 
 <style>
-    a{
+    a {
         text-decoration: none;
-        color:#1034e8;
+        color: #1034e8;
         font-weight: 800;
         font-size: 1.2em;
     }
-    a:hover{
+    a:hover {
         text-decoration: underline;
     }
 </style>

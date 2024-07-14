@@ -3,10 +3,8 @@
 
 <nav>
     <a href="/">Home</a>
-    <a href="/create">Create</a>
-    <a href="/read">Read</a>
-    <a href="/update">Update</a>
-    <a href="/destroy">Destroy</a>
+    <a href="/send">Send a Message</a>
+    <a href="/sent">Sent Messages</a>
 </nav>
 
 
